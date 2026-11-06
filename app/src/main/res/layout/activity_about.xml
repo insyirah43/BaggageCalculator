@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  About Activity Layout for Excess Baggage Fee Estimator.
+  Displays developer details, copyright statement, and clickable GitHub repository link.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal"
+    android:background="#EFEFEF"> <!-- Light gray background for consistency -->
+
+    <!-- Page Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About Developer"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#002D72"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Developer Information Card / Section -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name: INSYIRAH BINTI AZIZAN\nStudent No: 2024665934\nProgramme Code: CDCS251\nGroup :CDCS2515A"
+        android:textSize="16sp"
+        android:textColor="#333333"
+        android:lineSpacingExtra="6dp"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Copyright Statement -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Copyright © 2026 Excess Baggage Calculator. Insyirah Azizan."
+        android:textSize="12sp"
+        android:textColor="#777777"
+        android:layout_marginBottom="30dp"/>
+
+    <!-- Clickable GitHub Repository URL -->
+    <TextView
+        android:id="@+id/tvGithubLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="https://github.com/insyirah43/BaggageCalculator.git"
+        android:textColor="#D32F2F"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:autoLink="web"
+        android:linksClickable="true"/>
+
+</LinearLayout>
